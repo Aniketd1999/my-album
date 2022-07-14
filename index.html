@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Another Practice</title>
+    </head>
+    <body>
+        <h2>Another Practice</h2>
+        <button id="btn1" onclick="fun1()">Photo 1</button>
+        <button id="btn2" onclick="fun2()">Photo 2</button>
+        <button id="btn3" onclick="fun3()">Photo 3</button>
+        <button id="btn4" onclick="fun4()">Photo 4</button>
+        <button id="btn5" onclick="fun5()">Photo 5</button><br><br><br>
+
+        <img id="ige" onclick="fun3()" src="images/img 1.jpg" alt="">
+        <style>
+            body{
+                text-align: center;
+                margin: 0px;
+                padding: 0px;
+            }
+            img{
+                height: 400px;
+                width: 600px;
+            }
+
+        </style>
+        <script>
+            function fun1(){
+                document.getElementById('ige').src="images/img 1.jpg";
+            }
+
+            function fun2(){
+                document.getElementById('ige').src="images/img 2.jpg";
+            }
+
+            function fun3(){
+                document.getElementById('ige').src="images/img 3.jpg";
+            }
+
+            function fun4(){
+                document.getElementById('ige').src="images/img 4.jpg";
+            }
+
+            function fun5(){
+                document.getElementById('ige').src="images/img 5.jpg";
+            }
+
+            
+        </script>
+    </body>
+</html>
